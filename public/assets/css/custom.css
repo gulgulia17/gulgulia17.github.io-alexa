@@ -1,0 +1,166 @@
+    *,
+    body {
+        font-family: 'Changa', sans-serif;
+    }
+
+    .navbar-light {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .top-nav {
+        background-color: #e1e1e1;
+        color: #282F39 !important;
+    }
+
+    .bottom-nav {
+        background-color: #4c4c4a;
+        color: #ffffff;
+    }
+
+    .top-nav,
+    .bottom-nav {
+        font-size: 12px;
+        line-height: 40px;
+        position: relative;
+        z-index: 1001;
+    }
+
+    footer a,
+    .top-nav a {
+        color: #282F39 !important;
+    }
+
+    .top-nav a:hover {
+        color: #282F39 !important;
+        padding: .3rem;
+        box-shadow: 1px 1px 1px 1px;
+    }
+
+    .top-nav a:active {
+        color: #007bff !important;
+        box-shadow: unset;
+    }
+
+    .fix-background {
+        position: relative;
+        background-size: cover !important;
+        -webkit-animation-duration: 0s;
+        -webkit-animation-fill-mode: none;
+        overflow: hidden;
+        background-position: center center !important;
+        background-repeat: no-repeat !important;
+        background-attachment: fixed !important;
+    }
+
+    #home {
+        background-image: url(https://www.innovativepharma.in/wp-content/uploads/2018/12/2018-12-29-1.jpg);
+        height: 90vh;
+    }
+
+    .navbar-toggler:active,
+    .navbar-toggler:focus {
+        outline: unset;
+    }
+
+    .navbar .nav-link {
+        font-weight: 600
+    }
+
+    .footer {
+        background-color: #e1e1e1;
+        color: #282F39 !important;
+    }
+
+    .font-weight-600 {
+        font-weight: 600;
+        font-size: 1.50rem;
+    }
+
+    footer .col-md-4 {
+        padding: 0 2rem;
+    }
+
+    .fa-phone {
+        transform: rotate(90deg);
+    }
+
+    #about,
+    #strengths {
+        background-image: url('/assets/img/mud.png');
+        min-height: 10vh;
+        padding: 3rem;
+    }
+
+    .section-title {
+        text-transform: uppercase !important;
+        text-align: center !important;
+        margin-bottom: 0 !important;
+        font-size: 2.25rem;
+        font-family: inherit;
+        font-weight: 500;
+        line-height: 1.2;
+        color: inherit;
+    }
+
+    .section-title::before {
+        width: 70px;
+        height: 1px;
+        bottom: 0px;
+    }
+
+    .section-title::after {
+        width: 30px;
+        height: 3px;
+        bottom: -1px;
+    }
+
+    .section-title::before,
+    .section-title::after {
+        background: #000;
+        position: absolute;
+        content: '';
+        left: 50%;
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+
+    .counter {
+        font-weight: bold;
+        font-size: 190%;
+    }
+
+    #footer-add {
+        line-height: 1.5;
+        
+    }
+
+    @media (min-width: 766px) {
+        .border-md-right {
+            border-right: 1px solid #dee2e6 !important;
+        }
+
+        .border-md-left {
+            border-left: 1px solid #dee2e6 !important;
+        }
+    }
+
+    @media (min-width: 576px) {
+        .border-sm-right {
+            border-right: 1px solid #dee2e6 !important;
+        }
+    }
+
+    @media (max-width: 575px) {
+        .border-xs-bottom {
+            border-bottom: 1px solid #dee2e6 !important;
+            padding-bottom: 1rem !important;
+            margin-top: 1rem !important;
+        }
+
+        .mt-xs-3 {
+            margin-top: 1rem !important;
+        }
+    }
